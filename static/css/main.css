@@ -504,16 +504,16 @@ section .main-body a i.bi {
     background-color: var(--border);
 }
 
-.resume-timeline li {
+.resume-timeline > li {
     position: relative;
     padding-bottom: 1.5rem;
 }
 
-.resume-timeline li:last-child {
+.resume-timeline > li:last-child {
     padding-bottom: 0;
 }
 
-.resume-timeline li::before {
+.resume-timeline > li::before {
     content: "";
     position: absolute;
     left: -1.5rem;
@@ -541,6 +541,123 @@ section .main-body a i.bi {
     font-size: 0.9rem;
     display: block;
     margin-top: 0.15rem;
+}
+
+.resume-timeline > li.resume-entry {
+    padding-bottom: 1rem;
+}
+
+.resume-timeline > li.resume-entry::before {
+    top: 1.55rem;
+}
+
+.resume-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px var(--shadow);
+    padding: 1rem 1.25rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.resume-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px var(--shadow-hover);
+}
+
+.resume-company {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text);
+}
+
+.resume-company-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--accent-soft);
+    color: var(--accent);
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.resume-roles {
+    list-style: none;
+    margin: 0.75rem 0 0 0;
+    padding: 0 0 0 2.65rem;
+    position: relative;
+}
+
+.resume-roles li {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 0.5rem;
+    row-gap: 0.1rem;
+    padding: 0.2rem 0;
+    line-height: 1.4;
+}
+
+.resume-roles li + li {
+    margin-top: 0.5rem;
+}
+
+/* Small dot per role, linked by a thin line when a company has several roles */
+.resume-roles li::before {
+    content: "";
+    position: absolute;
+    left: -1.68rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--surface);
+    border: 2px solid var(--accent);
+    z-index: 1;
+}
+
+.resume-roles li:first-child::before {
+    background-color: var(--accent);
+}
+
+.resume-roles::before {
+    content: "";
+    position: absolute;
+    left: calc(2.65rem - 1.68rem + 0.25rem - 1px);
+    top: 1rem;
+    bottom: 1rem;
+    width: 2px;
+    background-color: var(--border);
+}
+
+.resume-roles .resume-role {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.resume-roles .resume-current-badge {
+    margin-left: 0;
+}
+
+.resume-roles .resume-dates {
+    margin: 0 0 0 auto;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .resume-roles .resume-dates {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
 }
 
 .resume-current-badge {

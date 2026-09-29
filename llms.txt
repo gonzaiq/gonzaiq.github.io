@@ -1,0 +1,51 @@
+# Gonzalo Iñaki Quintana
+
+> Senior Research Scientist at Jasper AI, working on deep generative models (text-to-image diffusion models). PhD in applied mathematics from ENS Paris-Saclay (Université Paris-Saclay), with prior research on federated learning, contrastive learning and domain adaptation for medical imaging (mammography).
+
+Research interests: Deep Generative Models, Diffusion Models, Federated Learning, Deep Learning, Contrastive Learning, Domain Adaptation, Computer Vision.
+
+Experience:
+
+- Jasper AI: Senior Research Scientist (September 2025 - Present), Research Scientist (April 2025 - September 2025)
+- ENS Paris-Saclay: Postdoctoral Researcher (October 2024 - April 2025)
+- GE HealthCare: AI Researcher (July 2021 - October 2024)
+- 7 Sensing Software: Machine Learning Engineer (March 2021 - July 2021)
+
+Education: Ph.D. in Applied Mathematics (ENS Paris-Saclay), M.Eng. in Computer Science (IMT Atlantique), M.Sc. in Applied Mathematics (Université de Rennes 1), M.Eng. in Electrical & Electronics Engineering (Universidad de Buenos Aires).
+
+## Website sections
+
+- [Homepage](https://gonzaiq.github.io/): Personal homepage with bio, resume, research, patents and open source work
+- [Bio](https://gonzaiq.github.io/contents/home.md): Short bio and research interests
+- [News](https://gonzaiq.github.io/contents/news.md): Dated announcements (papers, positions, talks)
+- [Resume](https://gonzaiq.github.io/contents/resume.md): Experience and education
+- [Publications](https://gonzaiq.github.io/contents/research.md): Full list of publications and technical reports with abstracts
+- [Patents](https://gonzaiq.github.io/contents/patents.md): Granted patents
+- [Open source](https://gonzaiq.github.io/contents/opensource.md): Datasets, reports and code
+
+## Selected publications
+
+- [Our Journey to Building One of the Fastest Text-to-Image Models](https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report): Jasper Research Team, interactive technical report, 2026
+- [Evaluating federated learning approaches for mammography under breast density heterogeneity](https://doi.org/10.1117/1.JMI.13.4.044504): Journal of Medical Imaging 13(4), 2026
+- [MONET: A Massive, Open, Non-redundant and Enriched Text-to-image dataset](https://arxiv.org/abs/2605.21272): NeurIPS 2026, Datasets & Benchmarks Track
+- [Fast, faithful and photorealistic diffusion-based image super-resolution with enhanced Flow Map models](https://arxiv.org/abs/2601.16660): arXiv preprint, 2026
+- [Bridging Contrastive Learning and Domain Adaptation: Theoretical Perspective and Practical Application](https://www.arxiv.org/abs/2502.00052): arXiv preprint, 2025
+- [Leveraging domain adaptation methods for federated learning applied to 2D mammography image classification](https://theses.fr/2024UPASM044): PhD thesis, Université Paris-Saclay, 2024
+- [BN-SCAFFOLD: controlling the drift of Batch Normalization statistics in Federated Learning](https://arxiv.org/abs/2410.03281): arXiv preprint, 2024
+- [Contrastive learning: an efficient Domain Adaptation strategy for 2D mammography image classification](https://ieeexplore.ieee.org/document/10635873): IEEE ISBI, 2024
+
+## Open source
+
+- [MONET dataset](https://gojasper.github.io/monet/): ~104.9M image-text pairs for text-to-image training (Apache 2.0)
+- [T2I Interactive Technical Report](https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report): End-to-end account of building a text-to-image model
+- [contrastive-da-synthetic-patch](https://github.com/gonzaiq/contrastive-da-synthetic-patch): Code for Bridging Contrastive Learning and Domain Adaptation
+- [one-shot-fed-learning](https://github.com/gonzaiq/one-shot-fed-learning): Code for the IPOL one-shot federated learning demo
+
+## Optional
+
+- [Google Scholar](https://scholar.google.com/citations?user=iTsG1IkAAAAJ&hl=fr)
+- [GitHub](https://github.com/gonzaiq)
+- [LinkedIn](https://www.linkedin.com/in/gonzalo-inaki-quintana/)
+- [ResearchGate](https://www.researchgate.net/profile/Gonzalo-Quintana-4)
+- [Patent: Automatic CAD Model Selection System and Method for Radiography Imaging Systems](https://www.freepatentsonline.com/y2025/0006381.html)
+- [Patent: Method for presence detection, computer program product and module](https://patents.google.com/patent/WO2024115382A1/en?oq=WO2024115382A1)

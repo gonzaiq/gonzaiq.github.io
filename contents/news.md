@@ -1,4 +1,8 @@
+- <strong>September 29, 2026:</strong> Our paper <a href="https://arxiv.org/abs/2605.21272" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-text"></i> MONET, a massive open text-to-image dataset</a>, has been accepted for publication at the NeurIPS 2026 Datasets & Benchmarks Track! 🎉
 
+- <strong>September 1, 2026:</strong> New interactive technical report on <a href="https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report" target="_blank" rel="noopener noreferrer"><i class="bi bi-journal-richtext"></i> building one of the fastest text-to-image models</a>, from architecture design and data to training and distillation!
+
+- <strong>August 17, 2026:</strong> Our work on <a href="https://doi.org/10.1117/1.JMI.13.4.044504" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-text"></i> federated learning for mammography under breast density heterogeneity</a> has been published in the Journal of Medical Imaging! The <a href="https://arxiv.org/abs/2605.09137" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i> preprint</a> is also available.
 
 - <strong>May 20, 2026:</strong> New preprint introducing <a href="https://arxiv.org/abs/2605.21272" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-text"></i> MONET, a massive open text-to-image dataset</a>!
 
