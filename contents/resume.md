@@ -51,13 +51,13 @@
 </li>
 
 <li>
-<span class="resume-role">M.Eng. - Computer Science</span><br>
-<span class="resume-org">IMT Atlantique</span>, France
+<span class="resume-role">M.Sc. - Applied Mathematics</span><br>
+<span class="resume-org">Université de Rennes 1</span>, France
 </li>
 
 <li>
-<span class="resume-role">M.Sc. - Applied Mathematics</span><br>
-<span class="resume-org">Université de Rennes 1</span>, France
+<span class="resume-role">M.Eng. - Computer Science</span><br>
+<span class="resume-org">IMT Atlantique</span>, France
 </li>
 
 <li>
