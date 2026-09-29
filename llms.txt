@@ -11,7 +11,7 @@ Experience:
 - GE HealthCare: AI Researcher (July 2021 - October 2024)
 - 7 Sensing Software: Machine Learning Engineer (March 2021 - July 2021)
 
-Education: Ph.D. in Applied Mathematics (ENS Paris-Saclay), M.Eng. in Computer Science (IMT Atlantique), M.Sc. in Applied Mathematics (Université de Rennes 1), M.Eng. in Electrical & Electronics Engineering (Universidad de Buenos Aires).
+Education: Ph.D. in Applied Mathematics (ENS Paris-Saclay), M.Sc. in Applied Mathematics (Université de Rennes 1), M.Eng. in Computer Science (IMT Atlantique), M.Eng. in Electrical & Electronics Engineering (Universidad de Buenos Aires).
 
 ## Website sections
 
@@ -25,9 +25,9 @@ Education: Ph.D. in Applied Mathematics (ENS Paris-Saclay), M.Eng. in Computer S
 
 ## Selected publications
 
+- [MONET: A Massive, Open, Non-redundant and Enriched Text-to-image dataset](https://arxiv.org/abs/2605.21272): NeurIPS 2026, Datasets & Benchmarks Track
 - [Our Journey to Building One of the Fastest Text-to-Image Models](https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report): Jasper Research Team, interactive technical report, 2026
 - [Evaluating federated learning approaches for mammography under breast density heterogeneity](https://doi.org/10.1117/1.JMI.13.4.044504): Journal of Medical Imaging 13(4), 2026
-- [MONET: A Massive, Open, Non-redundant and Enriched Text-to-image dataset](https://arxiv.org/abs/2605.21272): NeurIPS 2026, Datasets & Benchmarks Track
 - [Fast, faithful and photorealistic diffusion-based image super-resolution with enhanced Flow Map models](https://arxiv.org/abs/2601.16660): arXiv preprint, 2026
 - [Bridging Contrastive Learning and Domain Adaptation: Theoretical Perspective and Practical Application](https://www.arxiv.org/abs/2502.00052): arXiv preprint, 2025
 - [Leveraging domain adaptation methods for federated learning applied to 2D mammography image classification](https://theses.fr/2024UPASM044): PhD thesis, Université Paris-Saclay, 2024

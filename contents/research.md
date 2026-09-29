@@ -10,6 +10,16 @@
 
 <div class="pub-card" tabindex="0" role="button" aria-haspopup="dialog">
 <div class="pub-body">
+<strong>MONET: A Massive, Open, Non-redundant and Enriched Text-to-image dataset</strong><br>
+Aubin, B., Quintana, G. I., Tasar, O., Sreetharan, S., Czerwinska, U., Henry, D., & Chadebec, C.<br>
+<em>Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track</em>, Dec 2026<br>
+<a href="https://arxiv.org/abs/2605.21272" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i> Link to preprint</a>
+</div>
+<div class="pub-abstract" hidden>Training large text-to-image models requires high-quality, curated datasets with diverse content and detailed captions. Yet the cost and complexity of collecting, filtering, deduplicating, and re-captioning such corpora at scale hinders open and reproducible research in the field. We introduce MONET, an open Apache 2.0 dataset of approx. 104.9M image-text pairs collected from 2.9B raw pairs across heterogeneous open sources through successive stages of safety filtering, domain-based filtering, exact and near-duplicate removal, and re-captioning with multiple vision-language models covering short to long-form descriptions, and further augmented with synthetically generated samples. Each image is shipped with pre-computed embeddings and annotations to accelerate downstream use. To validate the effectiveness of MONET, we train a 4B-parameter latent diffusion model exclusively on it and reach competitive GenEval and DPG scores, demonstrating that our dataset lowers the barrier to large-scale, reproducible text-to-image research.</div>
+</div>
+
+<div class="pub-card" tabindex="0" role="button" aria-haspopup="dialog">
+<div class="pub-body">
 <strong>Our Journey to Building One of the Fastest Text-to-Image Models</strong><br>
 Jasper Research Team<br>
 <em>Interactive technical report</em>, Sep 2026<br>
@@ -26,16 +36,6 @@ Quintana, G. I., Di Maria, F. M., & Vancamberg, L.<br>
 <a href="https://doi.org/10.1117/1.JMI.13.4.044504" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-text"></i> Link to paper</a> &nbsp; <a href="https://arxiv.org/abs/2605.09137" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i> Link to preprint</a>
 </div>
 <div class="pub-abstract" hidden>Purpose: Breast density is a key factor that influences mammography interpretation and is a major source of heterogeneity in multicenter datasets. Such heterogeneity poses challenges for collaborative machine learning across institutions, particularly in federated learning (FL). We aim to evaluate the impact of breast density–induced heterogeneity on FL for mammography image classification and to assess the robustness of common FL algorithms in realistic clinical settings. Approach: We conducted experiments on mammography datasets under two scenarios: (1) a strongly heterogeneous setting where each participating site contributed exclusively low- or high-density cases, based on the BI-RADS density score, and (2) a population-based setting simulating breast density distributions observed in White and Asian populations. For the strongly heterogeneous setting, we evaluated two configurations: one with two clients, where the cases were grouped as BI-RADS A–B and C–D, and one with four clients, where each site contained cases of a single BI-RADS density. We compared three FL methods (i.e., FedAvg, FedProx, and SCAFFOLD) against centralized training, local-only training, and naïve aggregation approaches, including model ensembling and weight averaging. Results: Across both scenarios, FL consistently achieved performance comparable to centralized training, whereas local models and naïve aggregation approaches underperformed in the presence of strong heterogeneity. Notably, FedAvg achieved accuracy on par with or exceeding centralized training, demonstrating resilience to breast density–induced data imbalance without requiring specialized heterogeneity mitigation algorithms. Conclusions: These findings show that FL can effectively address breast density–related heterogeneity, supporting its feasibility for real-world mammography workflows. The demonstrated robustness of FedAvg underscores the potential for broad clinical deployment of FL, enabling collaborative model development while maintaining data privacy.</div>
-</div>
-
-<div class="pub-card" tabindex="0" role="button" aria-haspopup="dialog">
-<div class="pub-body">
-<strong>MONET: A Massive, Open, Non-redundant and Enriched Text-to-image dataset</strong><br>
-Aubin, B., Quintana, G. I., Tasar, O., Sreetharan, S., Czerwinska, U., Henry, D., & Chadebec, C.<br>
-<em>Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track</em>, 2026<br>
-<a href="https://arxiv.org/abs/2605.21272" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i> Link to preprint</a>
-</div>
-<div class="pub-abstract" hidden>Training large text-to-image models requires high-quality, curated datasets with diverse content and detailed captions. Yet the cost and complexity of collecting, filtering, deduplicating, and re-captioning such corpora at scale hinders open and reproducible research in the field. We introduce MONET, an open Apache 2.0 dataset of approx. 104.9M image-text pairs collected from 2.9B raw pairs across heterogeneous open sources through successive stages of safety filtering, domain-based filtering, exact and near-duplicate removal, and re-captioning with multiple vision-language models covering short to long-form descriptions, and further augmented with synthetically generated samples. Each image is shipped with pre-computed embeddings and annotations to accelerate downstream use. To validate the effectiveness of MONET, we train a 4B-parameter latent diffusion model exclusively on it and reach competitive GenEval and DPG scores, demonstrating that our dataset lowers the barrier to large-scale, reproducible text-to-image research.</div>
 </div>
 
 <div class="pub-card" tabindex="0" role="button" aria-haspopup="dialog">
